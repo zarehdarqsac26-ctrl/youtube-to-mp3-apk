@@ -1,7 +1,6 @@
 import os
 import threading
 
-# Չի թողնում, որ Kivy-ի console logger-ը փոխարինի yt-dlp-ի output stream-ը։
 os.environ.setdefault("KIVY_NO_CONSOLELOG", "1")
 
 import yt_dlp
