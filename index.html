@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+    <meta name="google-site-verification" content="7idjNRVqfEkS-BqF6OXkOtFuD5_72W3lsLDHk6c1KGA" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ալ․ gh">
+    <meta name="robots" content="index, follow">
+
+    <!-- Primary Meta Tags -->
+    <title>Free YouTube to MP3 Converter - Fast & High Quality</title>
+    <meta name="title" content="Free YouTube to MP3 Converter - Fast & High Quality">
+    <meta name="description" content="Convert and download YouTube videos to MP3 instantly. High quality audio extraction, fast downloads, no ads, and 100% free MP3 converter.">
+    <meta name="keywords" content="youtube to mp3, youtube to mp3 converter, download youtube audio, free mp3 downloader, youtube audio extractor, convert yt to mp3, youtube mp3 download apk, fast youtube converter">
+
+    <!-- Open Graph / Facebook / Telegram -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="YouTube to MP3 - Fast & Free Downloader">
+    <meta property="og:description" content="Convert YouTube videos to high quality MP3 audio in seconds. Try the app now!">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="YouTube to MP3 - Fast & Free Downloader">
+    <meta property="twitter:description" content="Convert YouTube videos to high quality MP3 audio in seconds. Try the app now!">
+
+    <!-- Favicon & External Resources -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%235b86e5'/><path d='M30 50 a20 20 0 0 1 40 0 v15 a5 5 0 0 1 -5 5 h-5 a5 5 0 0 1 -5 -5 v-10 a5 5 0 0 1 5 -5 h5 v-5 a10 10 0 0 0 -20 0 v5 h5 a5 5 0 0 1 5 5 v10 a5 5 0 0 1 -5 5 h-5 a5 5 0 0 1 -5 -5 z' fill='white'/><path d='M50 45 v18 m-6 -6 l6 6 l6 -6' stroke='white' stroke-width='4' stroke-linecap='round' stroke-linejoin='round' fill='none'/></svg>">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cinzel:wght@600&display=swap" rel="stylesheet">
+</head>
+    
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%235b86e5'/><path d='M30 50 a20 20 0 0 1 40 0 v15 a5 5 0 0 1 -5 5 h-5 a5 5 0 0 1 -5 -5 v-10 a5 5 0 0 1 5 -5 h5 v-5 a10 10 0 0 0 -20 0 v5 h5 a5 5 0 0 1 5 5 v10 a5 5 0 0 1 -5 5 h-5 a5 5 0 0 1 -5 -5 z' fill='white'/><path d='M50 45 v18 m-6 -6 l6 6 l6 -6' stroke='white' stroke-width='4' stroke-linecap='round' stroke-linejoin='round' fill='none'/></svg>">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cinzel:wght@600&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #ffffff;
+            min-height: 100vh;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        header {
+            width: 100%;
+        }
+
+        .top-left-title {
+            font-family: 'Cinzel', serif;
+            font-size: 20px;
+            letter-spacing: 2px;
+            color: #555555;
+            text-transform: uppercase;
+        }
+
+        .main-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+            flex-wrap: wrap;
+            margin: 40px 0;
+        }
+
+        .preview-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .screenshots-wrapper {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .app-screenshot {
+            height: 320px;
+            max-width: 100%;
+            border-radius: 16px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+            object-fit: contain;
+        }
+
+        .app-main-title {
+            margin-top: 15px;
+            font-size: 22px;
+            font-weight: 700;
+            color: #000000;
+            letter-spacing: 0.5px;
+        }
+
+        .right-center-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .instructions-box {
+            font-size: 14px;
+            color: #000000;
+            line-height: 1.6;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .instructions-box p {
+            margin-bottom: 4px;
+        }
+
+        .buttons-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .github-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: #000000;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 600;
+            padding: 10px 14px;
+            border: 1px solid #e0e0e0;
+            border-radius: 12px;
+            transition: background-color 0.2s ease;
+        }
+
+        .github-link:hover {
+            background-color: #f5f5f5;
+        }
+
+        .download-box {
+            display: flex;
+            flex-direction: column;
+            width: 160px;
+        }
+
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background-color: #ff1e27;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 16px;
+            border-radius: 12px;
+            font-size: 13px;
+            font-weight: 700;
+            box-shadow: 0 4px 12px rgba(255, 30, 39, 0.25);
+            transition: transform 0.15s ease;
+        }
+
+        .download-btn:hover {
+            transform: scale(1.03);
+        }
+
+        .btn-sub-info {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 6px;
+            font-size: 11px;
+            color: #777777;
+            font-weight: 500;
+        }
+
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .bottom-left-signature {
+            font-family: 'Alex Brush', cursive;
+            font-size: 18px;
+            color: #666666;
+        }
+
+        .bottom-right-ads {
+            font-size: 12px;
+            color: #777777;
+            font-weight: 500;
+        }
+
+        @media (max-width: 768px) {
+            .main-container {
+                flex-direction: column;
+                gap: 30px;
+                margin: 20px 0;
+            }
+
+            .app-screenshot {
+                height: 240px;
+            }
+
+            .right-center-container {
+                align-items: center;
+                text-align: center;
+            }
+
+            .buttons-wrapper {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="top-left-title">SIMPLE AND FAST</div>
+    </header>
+
+    <div class="main-container">
+        <div class="preview-container">
+            <div class="screenshots-wrapper">
+                <img src="Screenshot_20260917_195901_YouTube to MP3(1).jpg" alt="Splash Screen" class="app-screenshot">
+                <img src="Screenshot_20260917_195915_YouTube to MP3.jpg" alt="Main Screen" class="app-screenshot">
+            </div>
+            <div class="app-main-title">YouTube to MP3</div>
+        </div>
+
+        <div class="right-center-container">
+            <div class="instructions-box">
+                <p>Copy-paste the YouTube link</p>
+                <p>Convert-click "download mp3"</p>
+                <p>Enjoy-file is saved to Downloads</p>
+            </div>
+
+            <div class="buttons-wrapper">
+                <a href="https://github.com/zarehdarqsac26-ctrl/youtube-to-mp3-apk/releases/tag/v1.0" target="_blank" class="github-link">
+                    <i class="fa-brands fa-github"></i> GitHub
+                </a>
+
+                <div class="download-box">
+                    <a href="YouTube to MP3.apk" download class="download-btn">
+                        <i class="fa-solid fa-download"></i> DOWNLOAD APK
+                    </a>
+                    <div class="btn-sub-info">
+                        <span>71.2 mb</span>
+                        <span>v.1.0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="bottom-left-signature">Alik Ghazaryan</div>
+        <div class="bottom-right-ads">without ad</div>
+    </footer>
+
+</body>
+</html>
